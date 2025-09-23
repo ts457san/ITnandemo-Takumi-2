@@ -1,0 +1,21 @@
+body {
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー（残したい水色部分） */
+.hero {
+  background: lightblue;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* 下のページ本体（白部分） */
+.content {
+  background: white;
+  color: black;
+  padding: 40px 20px;
+  min-height: 100vh; /* ページが短くても白が広がる */
+}
